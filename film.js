@@ -6,7 +6,7 @@ let urlParams = new URLSearchParams(window.location.search);
 let filmId = urlParams.get("id"); 
 
 function fetchFilmDetails() {
-  let url = `http://www.omdbapi.com/?apikey=${apiKey}&i=${filmId}`;
+  let url = `https://www.omdbapi.com/?apikey=${apiKey}&i=${filmId}`;
   fetch(url)
     .then((response) => response.json())
     .then((film) => {
