@@ -5,7 +5,7 @@ myButton.addEventListener("click", (event) => {
   event.preventDefault();
 
   let searchQuery = document.getElementById("inputField").value;
-  let URL = `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchQuery}`;
+  let URL = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchQuery}`;
 
   function getMyfilms() {
     fetch(URL)
