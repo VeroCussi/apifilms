@@ -122,6 +122,15 @@ a {
     display: block; 
 }
 
+.saved-button {
+    padding: .75rem;
+    background-color: #FFCC00;
+    font-size: 18px;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
 /* Media Queries para pantallas más pequeñas */
 
 @media (max-width: 768px) {

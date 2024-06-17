@@ -1,5 +1,8 @@
+//FUNCION DEL EJERCICIO SIN LOCALSTORAGE (FUNCIONA)
+
 let apiKey = "3f8a3568";
 let myButton = document.getElementById("btn");
+
 
 myButton.addEventListener("click", (event) => {
   event.preventDefault();
