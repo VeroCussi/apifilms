@@ -122,6 +122,7 @@ a {
     display: block; 
 }
 
+<<<<<<< HEAD
 .saved-button {
     padding: .75rem;
     background-color: #FFCC00;
@@ -131,6 +132,8 @@ a {
     cursor: pointer;
 }
 
+=======
+>>>>>>> a200c01 (update input: html & JS, now works)
 /* Media Queries para pantallas más pequeñas */
 
 @media (max-width: 768px) {
